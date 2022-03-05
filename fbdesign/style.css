@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+}
+#first-parent{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(184, 184, 184);
+    height: 40px;
+    flex-direction: row;
+
+}
+#step1{
+    display: flex;
+    width: 33%;
+
+
+}
+.text{
+    border: 0;
+    margin: 5px;
+    border-radius: 30px;
+    background-color: rgb(75, 72, 72);
+    padding-left: 30px;
+}
+#search{
+    display: flex;
+    background-color: transparent;
+    position: relative;
+    left: -54mm;
+   
+}
+#step2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+    width: 33%;
+
+
+}
+#step3{
+    display: flex;
+    flex-direction: row;
+    gap:6%;
+    margin: 6px;
+    width: 33%;
+}
+#step3 >span{
+    font-weight: 600;
+    display: flex;
+    margin-left:-22px;
+    align-items: center;
+    color: rgb(7, 7, 7);
+
+}
+#secound-parent{
+   height: 500px;
+   padding: 0;
+   background-image: linear-gradient(to left top, #cabdcb, #ccbacd, #cfb7ce, #d1b3d0, #d4b0d1);
+}
+#step4{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 50%;
+
+margin-left: 27%;
+border:0;
+border-radius: 0 0px 15px 15px;
+
+}
+#step5{
+display: flex;
+
+justify-content: center;
+position: relative;
+right: 180px;
+top: -25px;
+}
+
+
+#step6{
+    display: flex;
+    font-weight: bold;
+    font-size: xx-large;
+    gap: -13px;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+    left: -40px;
+ 
+    
+
+}
+.verify{
+    display: flex;
+    position: relative;
+    left: -7px;
+}
+#sub{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -90px;
+    left: 115px;
+}
+#signup{
+    color: white;
+    display: flex;
+    background-color: rgb(39, 157, 204);
+    height: 30px;
+    width: 130%;
+    border: 0;
+    padding: 5px 5px 5px 60px;
+    margin: 10px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 17px;
+    right: -10px;
+    font-size: large;
+    
+}
+#pen{
+    display: flex;
+    position: relative;
+    padding: 0;
+    top: -50px;
+    right: -63px;
+}
+#hori{
+display: flex;
+position: relative;
+justify-content: center;
+ bottom: 100px;
+ padding-left: 690px;
+ height: 56px;
+ margin-left: 29%;
+ margin-right: 29%;
+ background-color: transparent;
+ border-top: 1px solid rgb(110, 107, 107) ;
+ border-left: 0;
+ border-bottom:0;
+ border-right:0;
+
+
+}
+.borderbutton{
+    display:flex;
+    font-size:large;
+    background-color:transparent;
+    position: relative;
+    gap: 12px;
+    padding: 83px;
+    height: 40px;
+   left: 320px;
+   bottom: 210px;
+}
+#borderbutton-first{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(39, 157, 204);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.common{
+    background-color: transparent;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+#borderbutton-last{
+    background-color: transparent;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+#down-arrow{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    right: 25px;
+}
+.borderbutton2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+    gap: 12px;
+    padding: 83px;
+    height: 40px;
+   left: 230px;
+   border: 0;
+   border-radius: 40px;
+   bottom: 425px;
+}
+#button1{
+    padding: 5px 10px 5px 15px;
+    width: 100px;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    
+    background-color: rgb(207, 201, 207);
+}
+#button2{
+    padding: 5px 10px 5px 10px;
+    width: 95px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 29px;
+    background-color: rgb(207, 201, 207);
+}
+#button3{
+    padding: 5px 10px 5px 15px;
+    width: 40px;
+    border: 0;
+    border-radius: 10px;
+    
+    background-color: rgb(207, 201, 207);
+    
+}
+#button4{
+    padding: 5px 5px 5px 5px;
+    width: 40px;
+   
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(207, 201, 207);
+}
+#search1{
+  
+    display: flex;
+    position: relative;
+    max-width: 30px;
+    left: 71.5%;
+    bottom: 550px;
+}
+#like{
+    display: flex;
+    position: relative;
+   
+    max-width: 20px;
+    height: 20px;
+    left: 57%;
+    bottom: 587px;
+
+}
+#messager{
+
+    display: flex;
+    position: relative;
+   
+   
+    max-width: 20px;
+    height: 20px;
+    left: 64.5%;
+    bottom: 605px;
+
+}
+#menu{
+    display: flex;
+    position: relative;
+
+    max-width: 20px; 
+   height: 20px;
+    left: 76.5%;
+    bottom: 625px;
+}
+#thred-parent{
+    background-image: linear-gradient(to left bottom, #a991bc, #9f78b7, #975fb1, #8f42a9, #881ba0);
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 500px;
+}
+#A{
+    
+    margin-right: 430px;
+    padding-left: 20px;
+    padding-right: 40%;
+    padding-bottom: 300px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FF9FA5;
+    padding-top: 3px;
+}
+#tesla{
+    display: flex;
+    position: relative;
+    margin-left: 15px;
+    padding-top: 5px;
+    width: 40%;
+    right: -20px;
+    top: 10px;
+}
+#I{
+    display: flex;
+    position: relative;
+    top:-90px;
+    right: -5px;
+}
+#see-all{
+    display: flex;
+    color: rgb(39, 157, 204);
+    position:relative ;
+    right: -200px;
+    top:-90px;
+    font-weight: 600;
+}
+#empty{
+    padding: 50px 170px;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FF9FA5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -310px;
+    top:-155px;
+}
+#profile1{
+    display: flex;
+    position: relative;
+    top:-250px;
+    left: 60%;
+}
+#post{
+    display: flex;
+    position: relative;
+    top: -280px;
+    left: 67%;
+    width: 52%;
+    padding: 8px 8px 8px 80px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(75, 72, 72);
+}
+#three{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width:90%;
+    bottom: 260px;
+    left: 330px;
+}
+#photo{
+    background-color: transparent;
+    border: 0;
+}
+#click{
+    background-color: transparent;
+    border: 0;
+}
+#friends-tag{
+    background-color: transparent;
+    border: 0;
+}
+#icon{
+    display: flex;
+    position: relative;
+    align-items: baseline;
+   
+    gap: 20px;
+    right: 250px;
+}
+#image{
+    display: flex;
+    height: 110;
+    position: relative;
+    right: 100px;
+}
+#location{
+    display: flex;
+    
+    position: relative;
+    right: 25px;
+}
+
+#tag{
+    display: flex;
+    
+    position: relative;
+    left: 23px;
+}
